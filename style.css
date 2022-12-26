@@ -1,0 +1,86 @@
+body{
+    text-align: center;
+    font-family: 'Sevillana', cursive;
+    background: linear-gradient( #d996f3 0%,#a2d3fb 100%);
+}
+
+#Favorite_food{
+  font-family: 'Sevillana', cursive;
+     padding:40px;
+    text-align:center:
+}
+h1{
+  font-family: 'Sevillana', cursive;
+  font-size:18px;
+}
+p{
+  font-family: 'Sevillana', cursive;
+  font-size:18px;
+  color:#6A1B9A;
+    
+}
+h2{
+  font-family: 'Sevillana', cursive;
+  font-size:20px;
+  color:#003487;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+
+.menu{
+   list-style: none;
+   font-family: 'Sevillana', cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
+}
+.menu a{
+    color:black !important;
+}
+
+
+.link{
+    color:crimson;
+    display: inline;
+    padding-top:5px;
+    padding-left:9px;
+    padding-right:9px;
+    padding-bottom: 5px;
+}
+   .link:hover{
+    background-color:beige;
+}
+
+
+
+.picture{
+    width:auto;
+    height:300px;
+    width: 300px;
+   border-radius:0%;
+    
+    margin:20px;
+}
+.food
+{
+  background: #373B44;  /* fallback for old browsers */
+
+ background: linear-gradient( rgb(243, 228, 185), #f8aee4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding-top:20px;
+}
+
+img {
+transition: transform .2s;
+border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    
+    transform: scale(0.9);
+}
